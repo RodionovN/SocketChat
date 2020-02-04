@@ -8,7 +8,7 @@ import { addSubject, submitSubject, close } from '../../actions';
 import compose from '../../utils';
 
 
-const URL = 'ws://localhost:3000'
+const URL = 'ws://localhost:3001'
 class SubjectList extends Component {
 
     state = {
